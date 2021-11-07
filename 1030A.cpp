@@ -8,8 +8,10 @@ int main()
    while(t>0) {
        int a;
        cin>>a;
-               if(a==1)
-                   cout<<"HARD";
+               if(a==1) {
+                  cout<<"HARD";
+                  break;
+               }
                    t--;
                  }
                  if(t==0)
